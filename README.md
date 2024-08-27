@@ -232,13 +232,13 @@ Au final, nous avons choisi la Rope car elle permet d'avoir quand même des coll
 <br>
 
 ### Les différents solvers de MuJoCo
-Il y a 3 types de solvers différents sous MuJoCo: Newton, GC, and PGS.
+Il y a 3 types de solvers différents sous MuJoCo: Newton, CG, and PGS.
 
 <b>Newton: </b> L'avantage principal de ce solver est qu'il converge très rapidement (en 2 / 3 itérations). Cependant, observation personnelle, j'ai l'impression que l'on obtient plus d'erreur lié à la physique avec ce solver que les deux autres.
 
-<b>CG: </b> On utilise actuellement le solver GC avec 1000 itérations. C'est le solver qui prend le moins de capacité du CPU. 
+<b>CG: </b> On utilise actuellement le solver CG avec 1000 itérations. C'est le solver qui prend le moins de capacité du CPU. 
 
-<b>PGS: </b> Je n'ai pas vu de différences entre le solver GC et PGS au niveau de la physique.
+<b>PGS: </b> Je n'ai pas vu de différences entre le solver CG et PGS au niveau de la physique.
 
 <br>
 
