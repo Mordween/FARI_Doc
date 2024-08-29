@@ -190,7 +190,11 @@ Plusieurs problèmes ont été rencontrés lors de l'utilisation du code :
 
 ### Selection du Robot 
 
-Modification de la variable `robot` dans le fichier `model/config.json
+Modification de la variable `robot` dans le fichier `model/config.json`
+
+`mycobot` pour le robot **mycobot** de Elephant Robotics
+
+`lite6` pour le robot **lite6** de ufactory 
 
 <br>
 
