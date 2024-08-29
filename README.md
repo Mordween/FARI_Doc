@@ -34,7 +34,7 @@ Il existe trois méthodes principales pour créer une corde :
 
 <br>
 
-Cependant, chacune de ces méthodes présente des inconvénients :
+Cependant, chacune de ces méthodes présentent des inconvénients :
 
 - **Patch :** Bien que cette méthode puisse donner l'effet visuel d'une corde, elle est moins réaliste qu'une corde créée directement.
 
@@ -190,9 +190,7 @@ Plusieurs problèmes ont été rencontrés lors de l'utilisation du code :
 
 ### Selection du Robot 
 
-Uncomment / Comment la ligne 4/5 in ```main.xml  ``` <br>
-Uncomment / Comment la ligne 4/5 in ```main.py  ```<br>
-Uncomment / Comment la ligne 24/25 dans ```parameters.py```
+Modification de la variable `robot` dans le fichier `model/config.json
 
 <br>
 
