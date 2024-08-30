@@ -252,3 +252,13 @@ Pour créer un simulateur efficace, la performance en temps réel est essentiell
 Actuellement, nous utilisons une simple instruction de correspondance pour mettre en œuvre une machine à états. En plaçant cette machine à états dans une boucle while (qui s'exécute indéfiniment tant que la fenêtre du simulateur est ouverte), nous pouvons passer d'un état à l'autre de manière séquentielle.
 
 À la fin de chaque boucle, nous nous synchronisons avec le visualisateur MuJoCo, nous mettons à jour l'état de la simulation (y compris le modèle et les données) et nous introduisons un délai relatif entre chaque itération de la boucle. Ce délai est calculé comme la différence entre le temps d'attente maximal et le temps d'exécution réel de la boucle.
+
+<br>
+
+### Gaussian Splatting
+
+Il n'existe actuellement pas de fonctionnalité permettant d'intégrer directement du Gaussian Splatting dans MuJoCo.
+
+Cependant, il est possible d'implémenter une <a href="https://www.youtube.com/watch?v=5_GaPYBHqOo" target="_blank">Gaussian Splatting dans Unity </a> et d'utiliser les <a href="https://www.roboti.us/book/unity.html" target="_blank">modèles MuJoCo dans Unity</a>.
+
+Cette approche permet de combiner la physique réaliste de MuJoCo avec le rendu visuel d'Unity, tout en profitant des avantages immersifs du Gaussian Splatting.
