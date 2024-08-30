@@ -190,7 +190,7 @@ Plusieurs problèmes ont été rencontrés lors de l'utilisation du code :
 
 ### Selection du Robot 
 
-Modification de la variable `robot` dans le fichier `model/config.json`
+Modification de la variable `robot` dans le fichier `model/parameters.py` (à la ligne 25)
 
 `mycobot` pour le robot **mycobot** de Elephant Robotics
 
